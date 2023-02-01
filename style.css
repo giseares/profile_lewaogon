@@ -1,0 +1,77 @@
+/* STILO
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+#container{
+  width: 700px;
+  margin: 40px auto;
+}
+
+body{
+  background-color: #F7F9FC;
+}
+
+h1{
+  color: #575F7D;
+  font-size: 32px;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2{
+  color: #7ECE90;
+  font-size: 24px;
+  font-family: 'Lato', sans-serif;
+}
+
+p{
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: rgba(0,0,0,0.7)
+}
+
+.card-white{
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  padding: 40px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+#introduction a{
+  background-color: #6B72E1;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+#introduction p{
+  margin-bottom: 24px;
+}
+
+#rrss a{
+  padding: 8px;
+  font-size: 40px;
+  background-color: rgb(230, 230, 230);
+  color: white;
+}
+
+#rrss a:hover{
+  background-color: black;
+}
+
+.inline-list{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.inline-list li{
+  display: inline;
+  padding: 0 10px;
+}
+
+.img-circle{
+  border-radius: 50%;
+}
